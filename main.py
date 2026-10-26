@@ -39,7 +39,7 @@ except ImportError:
 
 
 APP_NAME = "MIM Browser"
-APP_VERSION = "1.0.1"
+APP_VERSION = "1.0.2"
 GITHUB_REPO = "sevagez18-star/mim-browser"
 GITHUB_RELEASE_API = f"https://api.github.com/repos/{GITHUB_REPO}/releases/latest"
 ROOT = Path.home() / "MIMBrowser"
