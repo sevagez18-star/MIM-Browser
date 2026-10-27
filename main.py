@@ -30,7 +30,7 @@ from PySide6.QtWebEngineCore import (
 from PySide6.QtWebEngineWidgets import QWebEngineView
 
 APP_NAME = "MIM Browser"
-APP_VERSION = "1.0.3"
+APP_VERSION = "1.0.4"
 GITHUB_REPO = "sevagez18-star/mim-browser"
 GITHUB_API = f"https://api.github.com/repos/{GITHUB_REPO}/releases/latest"
 
@@ -530,7 +530,7 @@ class MIMBrowser(QMainWindow):
         brand.setAlignment(Qt.AlignmentFlag.AlignCenter)
         side.addWidget(brand)
 
-        self.profile_label = QLabel(f"Профиль: {profile_name}")
+        self.profile_label = QLabel(f"Профиль: {self.profile_name}")
         self.profile_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         side.addWidget(self.profile_label)
 
